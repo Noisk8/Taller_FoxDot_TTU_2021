@@ -14,24 +14,28 @@ Escuchamos una ronda con las espectativas de las participantes...
 
 ### Palabras clave
 
-[Livecoding]() 
+[Livecoding](https://toplap.org/about/) 
 
-[Foxdot]()
++ sobre [Livecoding](https://github.com/toplap/awesome-livecoding/)
 
-[Python]()
+[Foxdot](https://foxdot.org/)
 
-[Supercollider]()
+[Python](https://www.python.org/)
 
-[Git]()
+[Supercollider](https://supercollider.github.io/)
 
-[Terminal]()
+[Git](https://git-scm.com/)
 
-[Cmd]()
+[Terminal_shell](https://es.wikipedia.org/wiki/Shell_de_Unix)
+
+[Cmd](https://www.ionos.es/digitalguide/servidores/know-how/comandos-cmd/)
 
 
 ### Instalación 
 
-[Linux]()
+[Guia oficial](https://foxdot.org/installation/)
+
+[Linux](https://github.com/Noisk8/InstalandoFoxDot-En-linux/blob/master/Debian-Ubuntu/foxdot.sh)
 
 [Windows]()
 
