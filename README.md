@@ -101,6 +101,18 @@ python3 -m FoxDot
 #### Mac
 
 
+###Primeros pasos Conociendo SytnhDefs
+
+
+Si ejecutamos la linea 
+~~~
+print(SynthDefs)
+~~~
+
+Podemos ver en la terminal de FoxDot los sintetizadores que tenemos disponibles para poner a poner a sonar 
+
+
+
 
 
 
