@@ -101,7 +101,7 @@ python3 -m FoxDot
 #### Mac
 
 
-###Primeros pasos Conociendo SytnhDefs
+### Primeros pasos Conociendo SytnhDefs
 
 
 Si ejecutamos la linea 
