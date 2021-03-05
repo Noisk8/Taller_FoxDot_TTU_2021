@@ -111,6 +111,20 @@ print(SynthDefs)
 
 Podemos ver en la terminal de FoxDot los sintetizadores que tenemos disponibles para poner a poner a sonar 
 
+~~~
+['loop', 'stretch', 'play1', 'play2', 'audioin', 'noise', 'dab', 'varsaw', 'lazer', 'growl', 'bass', 'dirt', 'crunch', 'rave', 'scatter', 'charm', 'bell', 'gong', 'soprano', 'dub', 'viola', 'scratch', 'klank', 'feel', 'glass', 'soft', 'quin', 'pluck', 'spark', 'blip', 'ripple', 'creep', 'orient', 'zap', 'marimba', 'fuzz', 'bug', 'pulse', 'saw', 'snick', 'twang', 'karp', 'arpy', 'nylon', 'donk', 'squish', 'swell', 'razz', 'sitar', 'star', 'jbass', 'sawbass', 'prophet', 'pads', 'pasha', 'ambi', 'space', 'keys', 'dbass', 'sinepad']
+~~~
+
+ En FoxDot, todos los nombres de variables de dos caracteres están reservados para los objetos player, como 'p1'd4 ji...
+ 
+ ~~~
+ bh >> keys ()
+ ~~~
+ 
+ En esta linea tenemos algo como:  **bh**  es el objeto, **>>** designa que sinte va sonar y por ultimo tenemos **keys** que es el sinte que va sonar, luego esta el parentesis que es para ingresar argumentos al sinte.
+ 
+ 
+ 
 
 
 
