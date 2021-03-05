@@ -7,10 +7,6 @@ Material de trabajo para el taller de Livecoding con python y supercollider [Fox
 
 ## Sesión 1 
 
-Presentación de lx facilitadorx y de lxs participantes...
-
-Escuchamos una ronda con las espectativas de las participantes...
-
 
 ### Palabras clave
 
@@ -101,7 +97,7 @@ python3 -m FoxDot
 #### Mac
 
 
-### Primeros pasos Conociendo SytnhDefs
+### sintetisadores
 
 
 Si ejecutamos la linea 
@@ -127,7 +123,43 @@ En esta linea tenemos algo como:  **bh**  es el objeto, **>>** designa que sinte
  nj >> bass (amp=.6, dur=8, )
  ~~~
  
- Acá tenemos casí lo mismo que antes solo que cambiamos el bh por cambiamos de sinte y dentro de los paretnesis pusimos dos arcgumentos, 
+ Acá tenemos casí lo mismo que antes solo que cambiamos el bh por cambiamos de sinte y dentro de los paretnesis pusimos dos atributos, **amp** que le indica el volumen, y **dur** que le indica una duracion en el ciclo.
+ 
+ 
+ 
+ Para saber más sobre los atributos  podemos ejecutar 
+ 
+ ~~~
+ print(Player.get_attributes())
+ ~~~
+ 
+ ~~~
+ ('degree', 'oct', 'freq', 'dur', 'delay', 'buf', 'blur', 'amplify', 'scale', 'bpm', 'sample', 'env', 'sus', 'fmod', 'pan', 'rate', 'amp', 'midinote', 'channel', 'vib', 'vibdepth', 'slide', 'sus', 'slidedelay', 'slidefrom', 'glide', 'glidedelay', 'bend', 'benddelay', 'coarse', 'striate', 'buf', 'rate', 'pshift', 'hpf', 'hpr', 'lpf', 'lpr', 'swell', 'bpf', 'bpr', 'bpnoise', 'chop', 'tremolo', 'beat_dur', 'echo', 'echotime', 'spin', 'cut', 'room', 'mix', 'formant', 'shape', 'drive')
+ ~~~
+ 
+
+ 
+ ## Sesión 3 
+ 
+ ### samples
+ 
+ ~~~
+ fr >> play (" T T U" )
+ ~~~
+ 
+ ### loops
+ 
+ 
+ ## Sesión 4
+ 
+ ### patrones 
+ 
+ ### 
+ 
+ 
+ 
+ 
+ 
  
 
 
