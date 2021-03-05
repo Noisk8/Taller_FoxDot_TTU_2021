@@ -121,9 +121,13 @@ Podemos ver en la terminal de FoxDot los sintetizadores que tenemos disponibles 
  bh >> keys ()
  ~~~
  
- En esta linea tenemos algo como:  **bh**  es el objeto, **>>** designa que sinte va sonar y por ultimo tenemos **keys** que es el sinte que va sonar, luego esta el parentesis que es para ingresar argumentos al sinte.
+En esta linea tenemos algo como:  **bh**  es el objeto, **>>** designa que sinte va sonar y por ultimo tenemos **keys** que es el sinte que va sonar, luego esta el parentesis que es para ingresar argumentos al sinte.
  
+ ~~~
+ nj >> bass (amp=.6, dur=8, )
+ ~~~
  
+ Acá tenemos casí lo mismo que antes solo que cambiamos el bh por cambiamos de sinte y dentro de los paretnesis pusimos dos arcgumentos, 
  
 
 
