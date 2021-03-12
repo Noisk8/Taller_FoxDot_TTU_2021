@@ -154,14 +154,35 @@ En esta linea tenemos algo como:  **bh**  es el objeto, **>>** designa que sinte
  
  En esta linea tenemos que fr es el obejto como en los sints >> dice que sonido va y en este caso está play, dentro de los parentesis y dentro de comillas estan los samples que vamos a ejecutar, en este caso T T U 
  
- ### loops
+ esto va sonar en una secuencia infinita, y como lo puedes notar los espacios representan un silencio. 
+ 
+ 
+  este es un ejemplo con una seria de argumentos 
+  
+ ~~~
+ bh >> play (" TU TU", amp=1, dur=1/4, chop=.5)
+ ~~~
+ 
+ En las carpetas de los samples por los general hay varios archivos entonces podriamos llamar a cada archivo 
+ 
+ ~~~
+ jh >> play ("|n2| ")
+~~~
+
+con los || podemos encerrar la carpeta a llamar y el sample que queramos, tener encuenta que se cuenta desde 0.
+
+También podemos crear nuestros propios sample e implementarlos en nuestro código... lo samples deben de ser en formato .wav 
+ 
  
  
  ## Sesión 4
  
- ### patrones 
  
- ### 
+ ### loops
+ 
+ 
+ ### patrones 
+
  
  
  
