@@ -180,6 +180,24 @@ También podemos crear nuestros propios sample e implementarlos en nuestro códi
  
  ### loops
  
+ En foxdot podemos crear loops con samples largos  utilizando la funcion loop
+ 
+ ~~~
+ vv >> loop ('foxdot')
+~~~
+
+ Los archivos que se pueden ejecutar con esta funcion está ubicados en la capreta _loop_ de la ruta vista previamente en los samples   
+
+
+En este ejemplo vemos un 3 este le indica apartir de que segundo arrancar y tambien tiene el efecto chop.
+
+
+~~~
+ bg >> loop ('foxdot', 3, chop=2)
+~~~
+
+
+ 
  
  ### patrones 
 
