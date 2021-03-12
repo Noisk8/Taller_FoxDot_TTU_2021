@@ -127,7 +127,7 @@ En esta linea tenemos algo como:  **bh**  es el objeto, **>>** designa que sinte
  
  
  
- Para saber más sobre los atributos  podemos ejecutar 
+ Para visualizar los atributos que podemos usar ejecutamos la sigiente linea 
  
  ~~~
  print(Player.get_attributes())
@@ -137,15 +137,22 @@ En esta linea tenemos algo como:  **bh**  es el objeto, **>>** designa que sinte
  ('degree', 'oct', 'freq', 'dur', 'delay', 'buf', 'blur', 'amplify', 'scale', 'bpm', 'sample', 'env', 'sus', 'fmod', 'pan', 'rate', 'amp', 'midinote', 'channel', 'vib', 'vibdepth', 'slide', 'sus', 'slidedelay', 'slidefrom', 'glide', 'glidedelay', 'bend', 'benddelay', 'coarse', 'striate', 'buf', 'rate', 'pshift', 'hpf', 'hpr', 'lpf', 'lpr', 'swell', 'bpf', 'bpr', 'bpnoise', 'chop', 'tremolo', 'beat_dur', 'echo', 'echotime', 'spin', 'cut', 'room', 'mix', 'formant', 'shape', 'drive')
  ~~~
  
+ Para ver más información sobre los atributos y efectos [Documentación](https://foxdot.org/docs/player-attributes/)
 
  
  ## Sesión 3 
  
  ### samples
  
+ Foxdot utiliza una libreria de samples que se interpretan con algunas botones del teclado. para ver donde está ubicada esta carpeta y descubrir que digitos podemos usar vamos al  menu superior Help & setting → open sample folder
+ 
+ La sintaxis basica para reproducir un sample es la siguiente.
+ 
  ~~~
  fr >> play (" T T U" )
  ~~~
+ 
+ En esta linea tenemos que fr es el obejto como en los sints >> dice que sonido va y en este caso está play, dentro de los parentesis y dentro de comillas estan los samples que vamos a ejecutar, en este caso T T U 
  
  ### loops
  
